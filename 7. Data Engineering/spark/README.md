@@ -85,3 +85,24 @@ spark = SparkSession \
     .master("local[*]") \
     .getOrCreate()
 ```
+
+### Setup Databricks
+
+#### Crie uma conta para usar o notebook da Databricks Community Edition
+
+Acesse [databricks](https://community.cloud.databricks.com/login.html).
+
+#### Importar notebooks
+
+No menu lateral esquerdo:
+> Workspace > Shared > Import (clique na setinha) e digite um a um os endereços abaixo:
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/demo_jupyter_kernel_python.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/demo_pandas_vs_spark.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_acoes_transformacoes.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_livros_populares.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_tags_co_ocorrentes.ipynb
