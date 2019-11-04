@@ -106,3 +106,19 @@ No menu lateral esquerdo:
 * https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_livros_populares.ipynb
 
 * https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_tags_co_ocorrentes.ipynb
+
+#### Faça download dos arquivos necessários
+
+https://github.com/zygmuntz/goodbooks-10k/blob/master/book_tags.csv
+
+https://github.com/zygmuntz/goodbooks-10k/blob/master/books.csv
+
+https://github.com/zygmuntz/goodbooks-10k/blob/master/ratings.csv
+
+https://github.com/zygmuntz/goodbooks-10k/blob/master/tags.csv
+
+Agora, faça upload dos arquivos para o seu workspace do Databricks.
+
+Data > Add Data (canto superior do menu) > Upload files.
+
+Selecione ou arraste os arquivos para a caixa cinza.
