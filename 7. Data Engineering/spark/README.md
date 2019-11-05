@@ -1,3 +1,25 @@
+# Aula de Spark (04/11)
+
+## Notebooks
+
+### Demo
+
+* `demo_jupyter_kernel_python.ipynb`: sobre como usar Spark dentro de um kernel Python.
+
+* `demo_pandas_vs_spark.ipynb`: sobre como o Spark têm performance inferior quando usado para processar um dataset pequeno.
+
+### Exercícios
+
+A seguinte ordem é sugerida para fazer os exercícios:
+
+* `exercicio_acoes_transformacoes.ipynb`: sobre a diferença entre transformações e ações.
+
+* `exercicio_livros_populares.ipynb`: sobre um pipeline de processamento de dados para selecionar os livros mais populares. Têm exemplos de uso de Spark SQL e DataFrame API.
+
+* `exercicio_spark_udfs.ipynb`: mostra exemplos simples de construção de user-defined-functions (`udf`s).
+
+* `exercicio_tags_co_ocorrentes.ipynb`: sobre um pipeline de processamento de dados para mostrar quais tags co-correm mais. Têm exemplos de joins e uso de `udf`s. 
+
 ## Instalação do Spark
 
 Atenção :warning:: Instruções válidas para sistema operacional Ubuntu 18.04. Podem haver variações para outros sistemas.
@@ -109,17 +131,17 @@ No menu lateral esquerdo:
 
 #### Faça download dos arquivos necessários
 
-https://github.com/zygmuntz/goodbooks-10k/blob/master/book_tags.csv
-
-https://github.com/zygmuntz/goodbooks-10k/blob/master/books.csv
-
-https://github.com/zygmuntz/goodbooks-10k/blob/master/ratings.csv
-
-https://github.com/zygmuntz/goodbooks-10k/blob/master/tags.csv
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/book_tags.csv
+ 
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/books.csv
+ 
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/ratings.csv
+ 
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/tags.csv
 
 Agora, faça upload dos arquivos para o seu workspace do Databricks.
 
-Data > Add Data (canto superior do menu) > Upload files.
+> Data > Add Data (canto superior do menu) > Upload files.
 
 Selecione ou arraste os arquivos para a caixa cinza.
 
@@ -132,13 +154,3 @@ O caminho até eles será um pouco diferente. Exemplos:
 * `data/books.csv` --> `dbfs:/FileStore/tables/books.csv`
 
 * `data/ratings.csv` --> `dbfs:/FileStore/tables/ratings.csv`
-
-### Exemplo de criação de DataFrame
-
-```python
-pandas_df = pd.DataFrame({
-  'id': [1, 2, 3, 4],
-  'age': [14, 15, 16, 16],
-  'name': ['B', 'B', 'C', 'D']})
-df = spark.createDataFrame(pandas_df)
-``` 
