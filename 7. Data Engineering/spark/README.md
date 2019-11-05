@@ -132,3 +132,13 @@ O caminho até eles será um pouco diferente. Exemplos:
 * `data/books.csv` --> `dbfs:/FileStore/tables/books.csv`
 
 * `data/ratings.csv` --> `dbfs:/FileStore/tables/ratings.csv`
+
+### Exemplo de criação de DataFrame
+
+```python
+pandas_df = pd.DataFrame({
+  'id': [1, 2, 3, 4],
+  'age': [14, 15, 16, 16],
+  'name': ['B', 'B', 'C', 'D']})
+df = spark.createDataFrame(pandas_df)
+``` 
