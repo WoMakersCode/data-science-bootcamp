@@ -1,3 +1,25 @@
+# Aula de Spark (04/11)
+
+## Notebooks
+
+### Demo
+
+* `demo_jupyter_kernel_python.ipynb`: sobre como usar Spark dentro de um kernel Python.
+
+* `demo_pandas_vs_spark.ipynb`: sobre como o Spark têm performance inferior quando usado para processar um dataset pequeno.
+
+### Exercícios
+
+A seguinte ordem é sugerida para fazer os exercícios:
+
+* `exercicio_acoes_transformacoes.ipynb`: sobre a diferença entre transformações e ações.
+
+* `exercicio_livros_populares.ipynb`: sobre um pipeline de processamento de dados para selecionar os livros mais populares. Têm exemplos de uso de Spark SQL e DataFrame API.
+
+* `exercicio_spark_udfs.ipynb`: mostra exemplos simples de construção de user-defined-functions (`udf`s).
+
+* `exercicio_tags_co_ocorrentes.ipynb`: sobre um pipeline de processamento de dados para mostrar quais tags co-correm mais. Têm exemplos de joins e uso de `udf`s. 
+
 ## Instalação do Spark
 
 Atenção :warning:: Instruções válidas para sistema operacional Ubuntu 18.04. Podem haver variações para outros sistemas.
@@ -85,3 +107,50 @@ spark = SparkSession \
     .master("local[*]") \
     .getOrCreate()
 ```
+
+### Setup Databricks
+
+#### Crie uma conta para usar o notebook da Databricks Community Edition
+
+Acesse [databricks](https://community.cloud.databricks.com/login.html).
+
+#### Importar notebooks
+
+No menu lateral esquerdo:
+> Workspace > Shared > Import (clique na setinha) e digite um a um os endereços abaixo:
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/demo_jupyter_kernel_python.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/demo_pandas_vs_spark.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_acoes_transformacoes.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_livros_populares.ipynb
+
+* https://github.com/WoMakersCode/data-science-bootcamp/blob/master/7.%20Data%20Engineering/spark/exercicio_tags_co_ocorrentes.ipynb
+
+#### Faça download dos arquivos necessários
+
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/book_tags.csv
+ 
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/books.csv
+ 
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/ratings.csv
+ 
+* https://github.com/zygmuntz/goodbooks-10k/blob/master/tags.csv
+
+Agora, faça upload dos arquivos para o seu workspace do Databricks.
+
+> Data > Add Data (canto superior do menu) > Upload files.
+
+Selecione ou arraste os arquivos para a caixa cinza.
+
+**Observação:** caso prefira, você pode fazer download dos datasets [em versão reduzida neste link](https://github.com/cimarieta/goodbooks-10k/tree/master/reduced): `books.csv` e `ratings.csv`.
+
+#### Como acessar os arquivos que fizemos uploads no Databricks
+
+O caminho até eles será um pouco diferente. Exemplos:
+
+* `data/books.csv` --> `dbfs:/FileStore/tables/books.csv`
+
+* `data/ratings.csv` --> `dbfs:/FileStore/tables/ratings.csv`
