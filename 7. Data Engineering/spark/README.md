@@ -122,3 +122,5 @@ Agora, faça upload dos arquivos para o seu workspace do Databricks.
 Data > Add Data (canto superior do menu) > Upload files.
 
 Selecione ou arraste os arquivos para a caixa cinza.
+
+**Observação:** caso prefira, você pode fazer download dos datasets [em versão reduzida neste link](https://github.com/cimarieta/goodbooks-10k/tree/master/reduced): `books.csv` e `ratings.csv`.
