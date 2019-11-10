@@ -13,13 +13,13 @@ Instrutoras: Bárbara e Thais
 Instrutoras: Gisely Alves
 
 ## 4.0 Modelos de classificação 
-Instrutoras: Mirelle, Vivian e Gisely
+Instrutoras: Priscilla e Vivian
 
 ## 4.1 Clustering
-Instrutoras: Mirelle, Vivian e Gisely
+Instrutoras: Jéssica e Vivian
 
 ## 5. Algoritmos de Machine Learning e aplicações em larga escala
-Instrutoras: Jéssica, Vivian e Gisely
+Instrutoras: Jéssica, Vivian e Thais
 
 ## 6. Data Visualization
 Instrutoras: Camila e Thais
