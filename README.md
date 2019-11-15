@@ -3,7 +3,7 @@
 ## 1. Introdução a Análise de Dados, Data Science, BI e Big Data
 Instrutoras: TBD
 
-## 2.0 Estatística Descritiva
+## 2. Estatística Descritiva
 Instrutoras: Bárbara e Thais
 
 ## 2.1 Análise de Dados em Python
@@ -12,7 +12,7 @@ Instrutoras: Bárbara e Thais
 ## 3. Modelos regressivos
 Instrutoras: Gisely Alves
 
-## 4.0 Modelos de classificação 
+## 4. Modelos de classificação 
 Instrutoras: Priscilla e Vivian
 
 ## 4.1 Clustering
