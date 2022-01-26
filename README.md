@@ -26,3 +26,5 @@ Instrutoras: Camila e Thais
 
 ## 7. Data Engineering/Big Data Track
 Instrutoras: Dani, Camila e Cinthia
+
+### adicionando alteração da aula git e github da potencia feminina :D
