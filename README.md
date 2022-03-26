@@ -26,3 +26,7 @@ Instrutoras: Camila e Thais
 
 ## 7. Data Engineering/Big Data Track
 Instrutoras: Dani, Camila e Cinthia
+
+## 8. Treinando clone e pull request
+Nome:[Jamile](https://github.com/bsjamile)
+Curso: ConstruDelas
