@@ -26,3 +26,6 @@ Instrutoras: Camila e Thais
 
 ## 7. Data Engineering/Big Data Track
 Instrutoras: Dani, Camila e Cinthia
+
+## 8. Praticando fork e pull request
+Aluna: [Jamile Barroso](https://github.com/bsjamile)
