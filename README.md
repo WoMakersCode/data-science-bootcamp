@@ -26,3 +26,5 @@ Instrutoras: Camila e Thais
 
 ## 7. Data Engineering/Big Data Track
 Instrutoras: Dani, Camila e Cinthia
+
+### Mudanca feita para o exercicio do modulo 4 do curso Desvendando o Github
