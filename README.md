@@ -1,6 +1,5 @@
 # Repositório de Exercícios do Data Science Bootcamp
 
-
 ## 1. Introdução a Análise de Dados, Data Science, BI e Big Data
 Instrutoras: TBD
 
@@ -27,4 +26,5 @@ Instrutoras: Camila e Thais
 
 ## 7. Data Engineering/Big Data Track
 Instrutoras: Dani, Camila e Cinthia
+
 
