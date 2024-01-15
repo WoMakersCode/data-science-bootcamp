@@ -19,3 +19,8 @@
   - pip=9.0.3
   - seaborn=0.9.0
   - plotly=3.3.0
+
+## Blog sobre analise de dados
+
+  - [Primeiros passos em Data Science utilizando Python para análise de dados](https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28)
+  
