@@ -10,7 +10,7 @@
 
 - [Choosing a good chart](http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html) - Como escolher bons gráficos. PDF para consulta.
 
-## versões das libs para essa aula
+## Versões das libs para essa aula
 
   - python=3.6.5
   - notebook=5.4.1
