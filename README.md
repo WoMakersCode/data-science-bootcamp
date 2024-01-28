@@ -9,16 +9,16 @@ Instrutoras: Bárbara e Thais
 ## 2.1 Análise de Dados em Python
 Instrutoras: Bárbara e Thais
 
-## 3. Modelos regressivos
+## 3. Modelos Regressivos
 Instrutoras: Gisely Alves
 
-## 4. Modelos de classificação 
+## 4. Modelos de Classificação 
 Instrutoras: Priscilla e Vivian
 
 ## 4.1 Clustering
 Instrutoras: Jéssica e Vivian
 
-## 5. Algoritmos de Machine Learning e aplicações em larga escala
+## 5. Algoritmos de Machine Learning e Aplicações em Larga Escala
 Instrutoras: Jéssica, Vivian e Thais
 
 ## 6. Data Visualization
