@@ -1,5 +1,9 @@
 # Repositório de Exercícios do Data Science Bootcamp
 
+
+teste exercicio git e github
+
+
 ## 1. Introdução a Análise de Dados, Data Science, BI e Big Data
 Instrutoras: TBD
 
