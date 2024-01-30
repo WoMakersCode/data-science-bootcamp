@@ -1,6 +1,6 @@
 # Análise de Dados em Python
 
-## Leitura interessante
+## Para leitura:
 
 - [Seaborn Introduction](https://seaborn.pydata.org/introduction.html) - Tutorial de introdução ao Seaborn
 
@@ -10,7 +10,7 @@
 
 - [Choosing a good chart](http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html) - Como escolher bons gráficos. PDF para consulta.
 
-## versões das libs para essa aula
+## Versões das libs utilizadas nas aulas:
 
   - python=3.6.5
   - notebook=5.4.1
