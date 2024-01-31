@@ -1,4 +1,4 @@
-# Repositório de Exercícios do Data Science Bootcamp
+# Repositório de Exercícios do Data Science Bootcamp 🚀
 
 ## 1. Introdução a Análise de Dados, Data Science, BI e Big Data
 Instrutoras: TBD
