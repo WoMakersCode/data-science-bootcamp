@@ -1,7 +1,7 @@
 # Repositório de Exercícios do Data Science Bootcamp
 
 ## 1. Introdução a Análise de Dados, Data Science, BI e Big Data
-Instrutoras: TBD
+Instrutoras:
 
 ## 2. Estatística Descritiva
 Instrutoras: Bárbara e Thais
