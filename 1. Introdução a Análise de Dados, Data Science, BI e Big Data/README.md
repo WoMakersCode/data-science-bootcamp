@@ -1,1 +1,5 @@
 # Introdução a Análise de Dados, Data Science, BI e Big Data
+
+### A análise de dados é um processo de inspeção, limpeza, transformação e modelagem de dados com o objetivo de descobrir informações úteis, informar conclusões e apoiar a tomada de decisões. A análise de dados tem múltiplas facetas e abordagens, abrangendo diversas técnicas sob uma variedade de nomes, e é usada em diferentes domínios dos negócios, ciências e ciências sociais. No mundo dos negócios de hoje, a análise de dados desempenha um papel tornando a tomada de decisões mais científicas e ajudando as empresas a operar com mais eficácia
+
+### Ciência de dados é um campo acadêmico interdisciplinar que utiliza estatística , computação científica , métodos científicos , processos, algoritmos e sistemas para extrair ou extrapolar conhecimento e insights de dados potencialmente ruidosos, estruturados ou não estruturados 
