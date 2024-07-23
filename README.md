@@ -26,3 +26,5 @@ Instrutoras: Camila e Thais
 
 ## 7. Data Engineering/Big Data Track
 Instrutoras: Dani, Camila e Cinthia
+
+## 8. Desenvolvedor(a) Web Frontend, explorando o backend com Python :)
