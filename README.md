@@ -1,12 +1,15 @@
 # Repositório de Exercícios do Data Science Bootcamp
 
+## Sobre o repositório:
+**O Data Science Bootcamp tem a missão de alavancar a capacitação de mulheres na área de dados.**
+
 ## 1. Introdução a Análise de Dados, Data Science, BI e Big Data
 Instrutoras: TBD
 
 ## 2. Estatística Descritiva
 Instrutoras: Bárbara e Thais
 
-## 2.1 Análise de Dados em Python
+### 2.1 Análise de Dados em Python
 Instrutoras: Bárbara e Thais
 
 ## 3. Modelos regressivos
@@ -15,7 +18,7 @@ Instrutoras: Gisely Alves
 ## 4. Modelos de classificação 
 Instrutoras: Priscilla e Vivian
 
-## 4.1 Clustering
+### 4.1 Clustering
 Instrutoras: Jéssica e Vivian
 
 ## 5. Algoritmos de Machine Learning e aplicações em larga escala
